@@ -1,13 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-const Home = () => {
-  return <h1>Home</h1>;
-};
-
-const About = () => {
-  return <h1>About</h1>;
-};
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
 
 function App() {
   return (
